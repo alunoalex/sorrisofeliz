@@ -1,0 +1,23 @@
+RELATORIO DE ERROS
+
+
+
+
+Aconteceram muitos erros muitos deles por erros por falta de campos em tabelas ou erros nas tabelas e na rota em alguns codigos incopletos. 
+
+-$data = $results[0]; -> significa banco de dados vasioss ou tabelas e procedures com porblemas comacampo erradas
+-iorder também pode aparentar problema
+-tb_carts -> não tem idaddress
+-b_ordders -> idadress
+-$_POST['iduser'] = $user->getiduser(); -> problema pela falta desse comando no profile
+
+esses são os principais erros
+
+-incluindo a falta dessse codigo -> $user->setData($_POST);
+
+	$user->update(false);
+
+    $_SESSION[User::SESSION] = $user->getValues();
+    
+
+    na rota profile

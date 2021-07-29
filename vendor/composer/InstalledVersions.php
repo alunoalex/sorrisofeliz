@@ -25,33 +25,33 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'alunoalex/sorrisofeliz',
+    'reference' => '6227569511033ca9ca6085a4dcafcd21058704bb',
+    'name' => 'hcodebr/ecommerce',
   ),
   'versions' => 
   array (
-    'alunoalex/sorrisofeliz' => 
+    'hcodebr/ecommerce' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '6227569511033ca9ca6085a4dcafcd21058704bb',
     ),
     'phpmailer/phpmailer' => 
     array (
-      'pretty_version' => 'v5.2.22',
-      'version' => '5.2.22.0',
+      'pretty_version' => 'v6.1.6',
+      'version' => '6.1.6.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b18cb98131bd83103ccb26a888fdfe3177b8a663',
+      'reference' => 'c2796cb1cb99d7717290b48c4e6f32cb6c60b7b3',
     ),
     'rain/raintpl' => 
     array (
